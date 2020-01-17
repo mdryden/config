@@ -1,2 +1,1 @@
-# config
-Storage for some random configuration files I use across systems.
+Help yourself, I borrowed liberally from others.
