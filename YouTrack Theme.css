@@ -1,0 +1,55 @@
+:root {
+    --ring-font-family: Segoe UI !important;
+}
+
+yt-issue-field-marker {
+    display: none !important;
+}
+
+.yt-issue-title {
+    font-weight: 500;
+}
+
+
+/* show stopper */
+yt-issue-custom-field-lazy.color-fields__plain-color-20
+{
+    padding-left: 0.2em;
+    background-color: #E30000;
+    color: white;
+}
+
+/* critical */
+/*yt-issue-custom-field-lazy.color-fields__field-19 {
+    
+}*/
+
+
+/* fixed */
+/*yt-issue-custom-field-lazy.color-fields__plain-color-6 {
+    background-color: #0050A1;
+    color: white;
+}*/
+
+/* reopened */
+yt-issue-custom-field-lazy.color-fields__plain-color-22 {
+    padding-left: 0.2em;
+    background-color: #DC5766;
+    color: white;
+}
+
+/* code review pending */
+yt-issue-custom-field-lazy.color-fields__plain-color-10
+{
+    padding-left: 0.2em;
+    background-color: #7DBD36;
+    color: white;
+}
+
+yt-issue-custom-field-lazy[title='Assignee: Michael Dryden'] {
+    font-weight: 600;
+}
+
+.yt-issue-summary.yt-issue-summary_resolved {
+    text-decoration: line-through
+}
