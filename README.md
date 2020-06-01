@@ -1,4 +1,3 @@
 Help yourself, I borrowed liberally from others.
 
-
-Updating the readme with my new changes.
+This should have more information to use this stuff.
