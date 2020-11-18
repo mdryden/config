@@ -2,6 +2,10 @@
 
 Set-PSReadlineOption -BellStyle None
 
+$env:PYTHONIOENCODING="utf-8"
+iex "$(thefuck --alias)"
+iex "$(thefuck --alias oops)"
+
 function gcloud_prompt {
   $context = cat "$env:APPDATA\gcloud\active_config";
 
