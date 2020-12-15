@@ -1,4 +1,5 @@
 # Goes in C:\Users\<user>\Documents\WindowsPowerShell
+# Might need to run Set-ExecutionPolicy RemoteSigned from an powershell admin prompt first
 
 Set-PSReadlineOption -BellStyle None
 
