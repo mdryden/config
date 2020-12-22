@@ -43,12 +43,12 @@ __gcloud_ps1() {
 }
 
 __firebase_ps1() {
-    FILE="/home/$USER/config/configstore/firebase-tools.json"
+    FILE="/home/$USER/.config/configstore/firebase-tools.json"
     if test -f "$FILE" ; then
         CONTEXT=$(grep \"$(pwd)\" $FILE | cut -d" " -f2 | cut -d"\"" -f2)
 
         if [ -n "$CONTEXT" ]; then
-            echo "${LIME_YELLOW}fb:$CONTEXT"
+            echo " ${LIME_YELLOW}fb:$CONTEXT"
         fi
     fi
 }
