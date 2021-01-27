@@ -38,13 +38,6 @@
                 "startingDirectory": "c:\\src"
             },
             {
-                "guid": "{7f586916-8357-53d4-bb2b-ca96f639898a}",
-                "hidden": false,
-                "name": "WSL",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "\\\\wsl$\\WLinux\\home\\mike"
-            },
-            {
                 // Make changes here to the cmd.exe profile.
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "Command Prompt",
@@ -56,6 +49,12 @@
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
