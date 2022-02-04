@@ -1,0 +1,29 @@
+# format="$python$nodejs$all$character"
+add_newline = true
+
+# format="$all$directory$character"
+# format = """
+# [┌───────────────────>](bold green)
+# [│](bold green)$all
+# [└─>](bold green) $character"""
+
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[\\$](bold green)" 
+
+
+[directory]
+# truncate_to_repo = false
+
+[python]
+# format="[$symbol($version )]($style)"
+
+# [git_branch]
+# format="[$symbol$branch]($style) "
+
+[nodejs]
+# format="[$symbol($version )]($style)"
+# symbol="🟢 "
+
+[gcloud]
+format="on [$symbol$project]($style) "
+# symbol="☁️ "
