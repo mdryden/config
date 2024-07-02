@@ -1,12 +1,12 @@
 #!/bin/bash
+yay --save --answerclean None --answerdiff None
 
-# untested, just notes at this point.
-
-yay -S gnome-terminal
 yay -S visual-studio-code-bin
-yay -S ttf-ms-win10-auto
-yay -S nerd-fonts-complete
-yay -S google-chrome
+yay -S ttf-firacode
+yay -S python
+yay -S python-pip
+yay -S go-pie
+yay -S dotnet-sdk-8.0
 
 echo "Installing starship"
 curl -sS https://starship.rs/install.sh | sh
